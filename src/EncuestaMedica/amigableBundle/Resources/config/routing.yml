@@ -1,0 +1,9 @@
+encuesta_medicaamigable_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: EncuestaMedicaamigableBundle:Default:index }
+encuesta_medicaamigable_medicos:
+    path:     /medicos
+    defaults: { _controller: EncuestaMedicaamigableBundle:Default:medicos }
+encuesta_medicaamigable_medico:
+    path:     /medico/{codigo}
+    defaults: { _controller: EncuestaMedicaamigableBundle:Default:medico, codigo:1}
