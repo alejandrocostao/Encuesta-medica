@@ -9,7 +9,7 @@ class DefaultController extends Controller
 	var $medicos = array(
 	  array("codigo"=>1,"nombre"=>"Alejandro Costa"),
 	  array("codigo"=>2,"nombre"=>"Aurelio Moreno"),
-	  array("codigo"=>2,"nombre"=>"Alberto Gonzalez")
+	  array("codigo"=>3,"nombre"=>"Alberto Gonzalez")
 	);
     public function indexAction($name)
     {

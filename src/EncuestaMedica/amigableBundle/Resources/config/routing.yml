@@ -5,5 +5,8 @@ encuesta_medicaamigable_medicos:
     path:     /medicos
     defaults: { _controller: EncuestaMedicaamigableBundle:Default:medicos }
 encuesta_medicaamigable_medico:
+    path:     /medico/Alejandro
+    defaults: { _controller: EncuestaMedicaamigableBundle:Default:medico, codigo:1}
+encuesta_medicaamigable_medico_list:
     path:     /medico/{codigo}
     defaults: { _controller: EncuestaMedicaamigableBundle:Default:medico, codigo:1}
